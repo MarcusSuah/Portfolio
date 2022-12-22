@@ -165,7 +165,7 @@ ul {
 
 .aside .logo a span {
     font-family: ' clicker script', cursive;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .aside .logo a::before {
@@ -808,6 +808,7 @@ h3.my-profession {
     padding: 0 40px;
     font-family: 'Great Vibes', cursive;
     border: none;
+    cursor: pointer;
 }
 
 @media(max-width: 1199px) {
