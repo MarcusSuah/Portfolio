@@ -293,10 +293,10 @@ aside .nav li a i {
     font-size: 15px;
 }
 
-.social-icons {
-    margin-top: 20px;
+.social-icons a{
     position: relative;
-    display: flex;
+    margin: 0 12px;
+    cursor: pointer;
 }
 
 .social-icons a{
@@ -306,6 +306,7 @@ aside .nav li a i {
     font-size: 2em;
     color: #080808;
 }
+
 
 .social-icons a::before{
     position: absolute;
