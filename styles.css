@@ -54,6 +54,7 @@ body {
     align-items: center;
     border-right: 1px solid var(--bg-black-50);
     transform: all 0.3s ease;
+    margin-bottom: 60px;
 }
 
 ul {
@@ -276,6 +277,104 @@ ul {
 aside .nav li a i {
     margin-right: 15px;
 }
+
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: var(--bg-black-100);
+    font-size: 300;
+    margin-top: 20px;
+}
+.copyright i {
+    color: var(--text-black-900);
+    padding: 8px;
+    font-size: 15px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+    color:var(--text-black-700);
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s all ease;
+}
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.layer a{
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work{
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    border-radius: 10px;    
+    display: block;
+    transition: transform 0.5s;
+}
+
+.work:hover img{
+    transform: scale(1.2);
+}
+.work:hover .layer{
+    height: 100%;
+}
+
+
 
 .padd-15 {
     padding-left: 15px;
@@ -691,8 +790,8 @@ h3.my-profession {
 }
 
 .profile .profile-item {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 25%;
+    max-width: 25%;
     margin-bottom: 30px;
     font-family: 'Great Vibes', cursive;
 }
