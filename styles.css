@@ -300,12 +300,6 @@ aside .nav li a i {
 }
 
 .social-icons a{
-    position: relative;
-    list-style: none;
-    margin: 0 10px;
-    cursor: pointer;   
-}
-.social-icons a i {
     text-decoration: none;
 }
 .social-icons a .fa-brands {
@@ -355,6 +349,7 @@ aside .nav li a i {
 }
 
 .social-icons a:hover{
+    color: #ff004f;
     transform: translateY(-5px);
 }
 
